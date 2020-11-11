@@ -57,7 +57,7 @@ const App = () => {
     var url = Linking.getInitialURL().then((url) => {
       console.log('Initial url is: ' + url);
       if (url) {
-        console.log('Initial url is: ' + url);
+      // console.log('Initial url is: ' + url);
       }
     }).catch(err => console.error('An error occurred', err));
    
